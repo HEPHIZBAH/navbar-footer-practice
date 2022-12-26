@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #010101;
+}
+.container {
+    max-width: 1200px;
+    height: 160px;
+    margin: auto;
+    background-color: #c2e9fb;
+}
+.grid {
+    display: grid;
+    grid-template-rows: 60% 40%;
+
+}
+
+.sub-nav {
+    display: flex;
+    justify-items:center;
+    justify-content:space-between;
+}
+
+.icon-wrap {
+    margin: auto;
+}
+.icon-size {
+    width:70px;
+}
+
+.ls-nav {
+    display: flex;
+    justify-content: space-around;
+    margin : auto;
+
+}
+ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #101010;
+    display: inline-block;
+    padding: 10px 35px;
+    font-weight: bold;
+    border-left: 1px solid rgb(31, 22, 165);
+}
+.spaceholder {
+    height: 100px;
+}
